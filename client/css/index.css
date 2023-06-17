@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #45a049;
+  overflow: hidden;
+  font-family: "Segoe print", Arial, Helvetica, sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: prespective(100px) translate(-50%, -50%);
+  transform: skewY(15deg);
+  transition: 0.5s;
+}
+
+.center:hover {
+  transform: prespective(100px) translate(-50%, -50%);
+  transform: skewY(0deg);
+}
+.center h1 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: #fff;
+  transform-style: preserve-3d;
+  transition: 0.8s;
+}
+.center h1 span:nth-child(1) {
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+}
+
+.center h1 span:nth-child(2) {
+  color: #5e17eb;
+  transform: translate(-50%, -50%) skewX(-60deg);
+  left: -3.8px;
+  clip-path: polygon(0 45%, 100% 45%, 100% 55%, 0 55%);
+}
+
+.center h1 span:nth-child(3) {
+  transform: translate(-50%, -50%) skewY(0deg);
+  left: -7.6px;
+  clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
+}
+
+.center:hover h1 span:nth-child(2),
+.center:hover h1 span:nth-child(3) {
+  transform: translate(-50%, -50%) skewX(0deg);
+  left: 0;
+  color: #fff;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #fff;
+  color: #000;
+  font-size: 1em;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+button:hover {
+  background-color: #ccc;
+  color: #fff;
+  cursor: pointer;
+}
+
+#details {
+  color: white !important;
+  font-size: 9px;
+  text-shadow: 2px 9px 4px rgba(136, 135, 135, 0.5);
+  padding: 10px;
+}

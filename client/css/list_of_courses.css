@@ -1,0 +1,201 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 52px;
+  line-height: 150px;
+  text-shadow: -1px -1px #fb6, 1px 1px #d60, -3px 0 4px #000;
+  font-family: "Segoe print", Arial, Helvetica, sans-serif;
+  color: #ff9933;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 2px solid #ccc;
+
+  background-color: #ccc; /* Set the background color to #ccc */
+}
+
+table th {
+  background-color: black;
+  color: white; /* Set the text color to white */
+}
+
+button {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: #2b2b2b;
+}
+
+.view_student_button {
+  background-color: #45a049;
+}
+
+.view_student_button:hover {
+  background-color: #4caf50;
+}
+
+#studentListContainer {
+  background-color: #f5f5f5;
+  border: 4px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+#specialBackground {
+  background-image: linear-gradient(to right, #ffafbd, #ffc3a0);
+  padding: 20px;
+}
+
+.delete-student {
+  background-color: #e74c3c;
+  color: #fff;
+  border: 1px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.add_student_to_course_class,
+.label_form_class {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #45a049;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.add_student_to_course_class,
+.editForm,
+.add_course_class {
+  color: black;
+}
+
+.studentDetails {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.studentDetails h2 {
+  margin: 0;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.studentDetails span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.delete-student {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-student:hover {
+  background-color: #cc0000;
+}
+
+.delete_button {
+  background-color: #cc0000;
+}
+
+.delete_button:hover {
+  background-color: red;
+}
+
+.add_course_button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.add_course_button:hover {
+  background-color: #3e8e41;
+}
+
+.add_course_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

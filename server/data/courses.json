@@ -1,0 +1,26 @@
+{
+  "course_ID": {
+    "id": "course_ID",
+    "name": "course_name",
+    "lecturer": "lecturer name",
+    "start_date": "01-10-2022",
+    "end_date": "01-10-2023",
+    "prerequisite_course": ["course_ID11", "course_ID222"],
+    "students": {
+      "student_id_1": {
+        "id": "student_id_1",
+        "firstname": "firstname",
+        "surname": "surname",
+        "picture": "url",
+        "grade": "grade"
+      },
+      "student_id_2": {
+        "id": "student_id_2",
+        "firstname": "firstname",
+        "surname": "surname",
+        "picture": "url",
+        "grade": "grade"
+      }
+    }
+  }
+}

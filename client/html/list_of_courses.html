@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>List of Courses</title>
+    <link rel="stylesheet" href="/css/list_of_courses.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/list_of_courses.js"></script>
+  </head>
+  <body>
+
+    <!-- Course List -->
+    <div id="courseTable">
+      <h1 id="table_title">Course's Dashboard</h2>
+      <button class="add_course_button">ADD COURSE</button>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Course ID</th>
+            <th>Course Name</th>
+            <th>Lecturer's Name</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Prerequisite Courses</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="courseData">
+          <!-- Courses will be dynamically added here -->
+        </tbody>
+      </table>
+      <button class="add_course_button">ADD COURSE</button>
+
+    </div>
+
+  </body>
+</html>
